@@ -1,4 +1,5 @@
-## Multi-Agent System Development with LangGraph
+## 1. Multi-Agent System Development with LangGraph
+## 2. MCP Server Development for Real Estate Tax Calculation
 
 ### 프로젝트 소개
 
@@ -24,4 +25,9 @@ Supervisor Agent가 사용자의 요청을 분석하고, 시장 뉴스, 주가 �
 - **Company Research Agent:** 기업 재무정보 및 SEC 공시 데이터 수집
 - **Economic Research Agent:** S&P 500 및 NASDAQ 지수 데이터 수집을 통해 전체 주식시장 흐름 파악
 - **Analyst:** 각 Agent가 수집한 정보를 종합하여 분석 결과 생성
-  
+
+- **MCP Server:** FastMCP를 활용한 종합부동산세 계산 서버 구축
+- **Tax Deduction Tool:** Chroma와 RAG를 활용한 사용자 조건별 공제 금액 검색
+- **Tax Base Tool:** RAG 기반 세법 정보 검색을 통한 과세표준 계산식 구성
+- **Market Value Rate Tool:** Tavily를 활용한 해당 연도 공정시장가액비율 검색
+- **House Tax Tool:** 검색한 공제 금액, 과세표준, 공정시장가액비율 및 세율을 종합하여 최종 종합부동산세 계산
